@@ -172,6 +172,7 @@ main {
     background-color: rgb(255, 190, 68);
     border-radius: 10px;
     height: 20%;
+    flex-wrap: wrap;
  }
 .article div a,.article2 div a{
     background-color: #404040;
