@@ -57,7 +57,7 @@ nav img {
     width: 90%;
     color: white;
     position: absolute;
-    top: 45%;
+    top: 60%;
     left: 50%;
     transform: translate(-50%,-50%);
     text-align: center;
@@ -172,7 +172,6 @@ main {
     background-color: rgb(255, 190, 68);
     border-radius: 10px;
     height: 20%;
-    flex-wrap: wrap;
  }
 .article div a,.article2 div a{
     background-color: #404040;
@@ -231,7 +230,7 @@ main {
     color: #fff1ff;
     width: 100%;
     text-align: center;
-    margin-top: 40px;
+    margin-top: 150px;
     padding: 5px;
  }
  .logos {
@@ -252,9 +251,11 @@ main {
 
  
  /* About Us page */
- 
+ .about-nav {
+     height: 2;
+ }
  .about-header {
-    min-height: 50vh;
+    min-height: 55vh;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/bg1.jpg);
     background-position: center;
@@ -319,3 +320,95 @@ main {
         
     }
 }
+
+/* SHOP */
+
+.main-shop{
+    width: 100%;
+    /* padding-bottom: 10%; */
+}
+.title-container {
+    text-align: left;
+    padding-top: 50px;
+}
+.shop-header {
+    min-height: 50vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/bg4.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    text-align: center;
+
+}
+.shop-header h1{
+    font-size: 2.5rem;
+    margin-bottom: 200px;
+}
+.section-shop {
+    
+    width: 85%;
+    margin: auto;
+}
+.article-shop {
+    padding-top: 3%;
+    /* margin-top: 0%; */
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px, 1fr));
+}
+.article-shop div {
+    margin-right: 50px;
+    margin-bottom: 15px;
+    box-shadow: 1px 10px 10px rgba(0, 0, 0, 0.2);
+    background-color: rgba(255, 212, 190, 0.7);
+    
+}
+.article-shop p {
+    border: 1px solid black;
+    color: brown;
+    padding: 10px;
+    margin: 0px 100px;
+    font-size: 20px;
+}
+.article shop h2 {
+    margin-top: 200px;
+    
+}
+.select-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 3%;
+}
+.addcart-btn {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid #fff;
+    padding: 10px 34px ;
+    font-size: 20px;
+    background-color: #404040;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.addcart-btn:hover {
+    border: 1px solid #404040;
+    background: #e49c00;
+    transition: 1s;
+}
+
+@media (max-width:600px) {
+    .article-shop div{
+        width: 100%;
+    }
+    .article-shop p{
+        width: 100%;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+}
+    
+
+
