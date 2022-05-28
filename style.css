@@ -576,6 +576,17 @@ strong {
     padding-bottom: 20px;
     
 }
+.blog-list img:hover {
+    transform: scale(2.50);
+    transition: all 1s ease;
+}
+.search-blog li:hover {
+    transform: scale(1.15);
+    transition: all 1s ease;
+}
+
+
+
 @media (max-width: 600px) {
     .blog-section {
         /* display: flex; */
