@@ -340,6 +340,7 @@ main {
     width: 100%;
 }
 .about-col h1{
+    color: #e49c00;
     font-size:  2rem;
     /* padding-top: 15%; */
 }
@@ -348,6 +349,7 @@ main {
     padding:15px 0 25px
 }
 .aboutlist li {
+    padding-bottom: 20px;
     font-size: 20px;
     color: #e49c00;
 }
