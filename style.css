@@ -459,9 +459,6 @@ main {
     transform: scale(1.03);
     transition: all 1s ease;
 }
-.bi{
-   font-size: 2rem;
-}
 
 
 @media (max-width:600px) {
@@ -615,7 +612,7 @@ strong {
 .search-blog li {
     list-style: none;
     padding: 10px;
-    background-color: #e49c00;
+    background-color:#818181;
     border: 1px solid black;
     width:20vw;
 }
@@ -638,6 +635,9 @@ strong {
 .li-blog a{
    text-decoration: none;
 }
+.li-blog a:hover{
+    color: #e49c00;
+}
 .li-blog li {
     list-style: none;
     padding-bottom: 20px;
@@ -650,6 +650,9 @@ strong {
 .search-blog li:hover {
     transform: scale(1.15);
     transition: all 1s ease;
+}
+.search-blog li:hover a {
+    color: #e49c00;
 }
 
 
